@@ -25,7 +25,7 @@ localhost:8000
 
 ## Endpoints
 
-1. ​/assessment​/create​/ (POST)
+1. /api/v1​/assessment​/create​/ (POST)
     
 
 input string
@@ -37,15 +37,15 @@ input string
     "type":"",
     "duration":
 ```
-3. ​/assessment​/list (GET)
-4. ​/assessment​/list?search=<tag_name> (GET)
-5. ​/assessment​/view​/{id}​/ (GET)
-6. ​/tags​/ (GET)
-7. ​/tags​/ (POST)
+2. /api/v1​/assessment​/list (GET)
+3. /api/v1​/assessment​/list?search=<tag_name> (GET)
+4. /api/v1​/assessment​/view​/{id}​/ (GET)
+5. /api/v1​/tags​/ (GET)
+6. /api/v1​/tags​/ (POST)
 
 input string
    ```json
     "name":""
 ```
 
-8. ​/swagger​/ (GET)
+7. ​/swagger​/ (GET)
