@@ -26,9 +26,26 @@ localhost:8000
 ## Endpoints
 
 1. ​/assessment​/create​/ (POST)
-2. ​/assessment​/list (GET)
-3. ​/assessment​/list?search=<tag_name> (GET)
-4. ​/assessment​/view​/{id}​/ (GET)
-5. ​/tags​/ (GET)
-6. ​/tags​/ (POST)
-7. ​/swagger​/ (GET)
+    
+
+input string
+   ```json
+    "tags":[],
+    "name":"",
+    "title":"",
+    "description":"",
+    "type":"",
+    "duration":
+```
+3. ​/assessment​/list (GET)
+4. ​/assessment​/list?search=<tag_name> (GET)
+5. ​/assessment​/view​/{id}​/ (GET)
+6. ​/tags​/ (GET)
+7. ​/tags​/ (POST)
+
+input string
+   ```json
+    "name":""
+```
+
+8. ​/swagger​/ (GET)
