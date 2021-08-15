@@ -22,3 +22,13 @@ Open browser to
 ```
 localhost:8000
 ```
+
+## Endpoints
+
+1. ​/assessment​/create​/ (POST)
+2. ​/assessment​/list (GET)
+3. ​/assessment​/list?search=<tag_name> (GET)
+4. ​/assessment​/view​/{id}​/ (GET)
+5. ​/tags​/ (GET)
+6. ​/tags​/ (POST)
+7. ​/swagger​/ (GET)
